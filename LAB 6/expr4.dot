@@ -1,0 +1,22 @@
+digraph G {
+i [ color = red, peripheries=2, style = filled, label = "/"];
+g [ color = red, peripheries=2, style = filled, label = "+"];
+i -> g
+h [ color = red, peripheries=2, style = filled, label = "d"];
+i -> h
+g [ color = red, peripheries=2, style = filled, label = "+"];
+c [ color = red, peripheries=2, style = filled, label = "*"];
+g -> c
+f [ color = red, peripheries=2, style = filled, label = "-"];
+g -> f
+c [ color = red, peripheries=2, style = filled, label = "*"];
+a [ color = red, peripheries=2, style = filled, label = "a"];
+c -> a
+b [ color = red, peripheries=2, style = filled, label = "2"];
+c -> b
+f [ color = red, peripheries=2, style = filled, label = "-"];
+d [ color = red, peripheries=2, style = filled, label = "b"];
+f -> d
+e [ color = red, peripheries=2, style = filled, label = "c"];
+f -> e
+}
